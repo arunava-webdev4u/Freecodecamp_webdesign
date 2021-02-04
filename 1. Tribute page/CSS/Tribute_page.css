@@ -1,0 +1,80 @@
+html{
+    font-size: 16px;
+    /*font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;*/
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+#main{
+    text-align: center;
+    background-color: rgb(213, 216, 219);
+    border-radius: 7px;
+}
+
+#title{
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    padding-top: 0.7rem;
+}
+
+#img-div{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    box-shadow: 5px 5px 12px rgb(128, 128, 128);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#img-caption{
+    font-style: italic;
+    color: rgb(36, 36, 36);
+    padding-right: 15rem;
+    padding-left: 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+#tribute-info{
+    padding-right: 15rem;
+    padding-left: 15rem;
+
+}
+
+h4{
+    font-style: italic;
+    color: rgb(56, 56, 56);
+}
+
+h3{
+    text-align: left;
+}
+
+h2{
+    font-size: 1.3rem;
+    text-align:center;
+}
+
+ul{
+    text-align: justify;
+}
+
+#tribute-link{
+    text-decoration: none;
+}
+
+article{
+    font-family:  Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    font-size: 1.4rem;
+}
+
+li{
+    line-height: 1.5rem;
+}
