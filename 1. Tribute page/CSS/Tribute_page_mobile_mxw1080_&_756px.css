@@ -1,4 +1,4 @@
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) and (prefers-color-scheme: light){
 
 html{
     /*font-size: 16px;
@@ -81,13 +81,104 @@ article{
 li{
     line-height: 1.5rem;
 }
-
-
-
 }
+
+/*-----------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1080px) and (prefers-color-scheme: dark){
+
+html{
+    /*font-size: 16px;
+    font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;*/
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+}
+
+body {
+    display: block;
+    margin: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+#main{
+    text-align: center;
+    background-color: rgb(27, 41, 56);
+    border-radius: 7px;
+}
+
+#title{
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#img-div{
+    background-color: rgb(0, 0, 0);
+    margin: 1rem;
+    box-shadow: 7px 7px 25px rgb(0, 0, 0);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#img-caption{
+    font-style: italic;
+    color: rgb(195, 195, 195);
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.8rem;
+}
+
+#tribute-info{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-style: italic;
+    color: rgb(180, 180, 180);
+    font-size: 0.9rem;
+}
+
+h3{
+    text-align: left;
+}
+
+h2{
+    font-size: 1.3rem;
+    text-align:center;
+}
+
+ul{
+    text-align: justify;
+}
+
+#tribute-link{
+    text-decoration: none;
+}
+
+article{
+    font-family:  Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    font-size: 1.4rem;
+    color: rgb(220, 220, 220);
+}
+
+a{
+    color:rgb(110, 120, 207);
+}
+
+li{
+    line-height: 1.5rem;
+}
+}
+
 
 /*--------------------------------------------------------------------*/
-@media screen and (max-width: 756px){
+@media screen and (max-width: 756px) and (prefers-color-scheme: white){
 
 html{
     /*font-size: 16px;
@@ -170,7 +261,96 @@ article{
 li{
     line-height: 1.5rem;
 }
+}
 
+@media screen and (max-width: 756px) and (prefers-color-scheme: dark){
 
+html{
+    /*font-size: 16px;
+    font-family: Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;*/
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+}
 
+body {
+    display: block;
+    margin: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+#main{
+    text-align: center;
+    background-color: rgb(27, 41, 56);
+    border-radius: 7px;
+}
+
+#title{
+    font-family: Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#img-div{
+    background-color: rgb(0, 0, 0);
+    margin: 1rem;
+    box-shadow: 7px 7px 25px rgb(0, 0, 0);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#img-caption{
+    font-style: italic;
+    color: rgb(195, 195, 195);
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.8rem;
+}
+
+#tribute-info{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-style: italic;
+    color: rgb(180, 180, 180);
+    font-size: 0.9rem;
+}
+
+h3{
+    text-align: left;
+}
+
+h2{
+    font-size: 1.3rem;
+    text-align:center;
+}
+
+ul{
+    text-align: justify;
+}
+
+#tribute-link{
+    text-decoration: none;
+}
+
+article{
+    font-family:  Tajawal,Heebo,Quicksand,Exo,Dosis,Helvetica,Arial;
+    font-size: 1.4rem;
+    color: rgb(220, 220, 220);
+}
+
+a{
+    color:rgb(110, 120, 207);
+}
+
+li{
+    line-height: 1.5rem;
+}
 }
