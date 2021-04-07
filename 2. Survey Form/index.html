@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Survey_form.css">
+    <title>2. Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill up this form</p>
+    </header>
+
+    <main>
+        <form id="survey-form" action="">
+
+            <div id="name-label" class="div-section">
+                <label for="name">Name: </label>
+                <input id="name" type="text" name="name" placeholder="Please enter your name" class="box" required>
+            </div>
+
+            <div id="email-label" class="div-section">
+                <label for="email">Email: </label>
+                <input id="name" type="email" name="email" placeholder="Please enter your email" class="box" required>
+            </div>
+
+            <div id="number-label" class="div-section">
+                <label for="number">Age: </label>
+                <input id="number" type="number" name="age" placeholder="Please enter your age" min="1" max="150" class="box" required>
+            </div>
+
+            <div id="dropdown-label" class="div-section">
+                <label for="dropdown" name="">Choose your current roll:</label>
+                <select id="dropdown" class="box">
+                    <option value="Student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="Currently-not-woeking">Currently not woeking</option>
+                    <option value="Full-Time-Learner">Full Time Learner</option>
+                    <option value="Prefer-Not-to-Say">Prefer Not to Say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div id="radio-label" class="div-section">
+                <p>Do you like Web Development?</p>
+
+                <div id="radio-label-options">
+                    <input id="first" type="radio" name="question" value="yes">
+                    <label for="first">Yes</label>
+                </div>
+                <div id="radio-label-options">
+                    <input id="second" type="radio" name="question" value="no">
+                    <label for="second">No</label>
+                </div>
+                <div id="radio-label-options">
+                    <input id="third" type="radio" name="question" value="not sure">
+                    <label for="third">Not Sure</label>
+                </div>
+            </div>
+
+            <div id="checkbox-label" class="div-section">
+                <p>Select your favourite languages:</p>
+                <div>
+                    <input id="C" type="checkbox" name="languages" value="C">
+                    <label for="C">C</label>
+                </div>
+                <div>
+                    <input id="C++" type="checkbox" name="languages" value="C++">
+                    <label for="C++">C++</label>
+                </div>
+                <div>
+                    <input id="C#" type="checkbox" name="languages" value="C#">
+                    <label for="C#">C#</label>
+                </div>
+                <div>
+                    <input id="Python" type="checkbox" name="languages" value="Python">
+                    <label for="Python">Python</label>
+                </div>
+                <div>
+                    <input id="Java" type="checkbox" name="languages" value="Java">
+                    <label for="Java">Java</label>
+                </div>
+                <div>
+                    <input id="JavaScript" type="checkbox" name="languages" value="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                </div>
+                <div>
+                    <input id="Ruby" type="checkbox" name="languages" value="Ruby">
+                    <label for="Ruby">Ruby</label>
+                </div>
+                <div>
+                    <input id="Rust" type="checkbox" name="languages" value="Rust">
+                    <label for="Rust">Rust</label>
+                </div>
+                <div>
+                    <input id="Go" type="checkbox" name="languages" value="Go">
+                    <label for="Go">Go</label>
+                </div>
+                <div>
+                    <input id="Perl" type="checkbox" name="languages" value="Perl">
+                    <label for="Perl">Perl</label>
+                </div>
+                <div>
+                    <input id="PHP" type="checkbox" name="languages" value="PHP">
+                    <label for="PHP">PHP</label>
+                </div>
+            </div>
+
+            <div id="comments-box" class="div-section">
+                <label for="comments">Tell us more about you . . . .</label><br>
+                <textarea id="comments" name="comments" placeholder="Type something here...." class="box"></textarea>
+            </div>
+
+                <button id="submit" type="submit" class="div-section">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
