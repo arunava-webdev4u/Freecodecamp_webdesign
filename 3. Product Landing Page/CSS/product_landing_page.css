@@ -53,6 +53,55 @@ li a:hover{
   color: #FF312E;
 }
 
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#email{
+    display: block;
+    width: 80%;
+    height: 35px;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit{
+    width: 30%;
+    height: 40px;
+    border: 0;
+    background-color: #515052;
+    color: #FFFFFA;
+}
+#submit:hover{
+    background-color: #FFFFFA;
+    color: #515052;
+    border: 3px solid #515052;
+}
+
+#about{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+i{
+    width: 6%;
+}
+#about>h2{
+    display: inline;
+}
+/* #FFFFFA
+#515052
+#000103
+#333138
+#FF312E */
+
+
+
 .video{
     width: 70%;
     margin-left: auto;
@@ -61,17 +110,64 @@ li a:hover{
 #video{
     width: 100%;
 }
-/* #FFFFFA
-#515052
-#000103
-#333138
-#FF312E */
+
+#pricing{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section>div{
+    width: 280px;
+    height: 300px;
+    background-color: #515052;
+    border: 2px #333138 solid;
+    border-radius: 2px;
+    text-align: center;
+}
+section>div>h2{
+    margin: 0;
+    padding: 3%;
+    background-color: #333138;
+    color: #FFFFFA;
+}
+section>div>p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section>div>button{
+    width: 50%;
+    height: 15%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #333138;
+    color: #FFFFFA;
+    border: 0;
+}
+section>div>button:hover{
+    background-color: #FFFFFA;
+    color: #333138;
+
+}
+/*----------------------------------------------------------------------------------------------*/
 @media (max-width: 1268px){
     #nav-bar{
         width: 45%;
     }
     #header-img{
         width: 20%;
+    }
+    #pricing{
+        flex-direction: column;
+    }
+    section>div{
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 3%;
     }
 }
 
@@ -82,8 +178,14 @@ li a:hover{
     #header-img{
         width: 25%;
     }
+    #about{
+        width: 85%;
+    }
     .video{
         width: 85%;
+    }
+    section>div{
+        width: 500px;
     }
 }
 
@@ -100,7 +202,17 @@ li a:hover{
     #header-img{
       margin: 2.5%;
     }
+    #about{
+        width: 95%;
+    }
     .video{
         width: 95%;
+    }
+    #pricing{
+    padding-left: 2.5%;
+    padding-right: 2.55%;
+}
+    section>div{
+        width: 100%;
     }
 }
