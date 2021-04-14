@@ -90,6 +90,7 @@ form{
 }
 i{
     width: 6%;
+    size: 50px;
 }
 #about>h2{
     display: inline;
@@ -160,6 +161,9 @@ section>div>button:hover{
     #header-img{
         width: 20%;
     }
+    form{
+        width: 65%;
+    }
     #pricing{
         flex-direction: column;
     }
@@ -177,6 +181,9 @@ section>div>button:hover{
     }
     #header-img{
         width: 25%;
+    }
+    form{
+        width: 75%;
     }
     #about{
         width: 85%;
@@ -201,6 +208,9 @@ section>div>button:hover{
     }
     #header-img{
       margin: 2.5%;
+    }
+    form{
+        width: 80%;
     }
     #about{
         width: 95%;
