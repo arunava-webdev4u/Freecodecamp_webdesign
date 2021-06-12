@@ -5,3 +5,16 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#navbar>ul{
+    background-color: rgba(0, 3, 0, 0.253);
+    color: azure;
+}
+
+#welcome-section{
+    color: white;
+}
